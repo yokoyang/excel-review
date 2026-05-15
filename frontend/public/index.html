@@ -6,11 +6,20 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="React Excel Preview Application" />
     <title>Excel 文件预览</title>
-    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-grid.css">
-    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-theme-alpine.css">
+    <!-- 本地 AG-Grid CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/vendor/ag-grid.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/vendor/ag-theme-alpine.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- 本地依赖库 - 按顺序加载 -->
+    <script src="%PUBLIC_URL%/vendor/react.production.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/react-dom.production.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/prop-types.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/ag-grid-community.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/ag-grid-react.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/axios.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/xlsx.full.min.js"></script>
   </body>
 </html>
