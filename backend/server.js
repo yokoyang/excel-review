@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const XLSX = require('xlsx');
+const express = require('./vendor/express');
+const cors = require('./vendor/cors');
+const XLSX = require('./vendor/xlsx');
 
 const app = express();
 const PORT = 3001;
