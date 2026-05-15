@@ -1,11 +1,16 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "React 16 Excel Preview Frontend (无网络环境)",
+  "description": "React 16 Excel Preview Frontend",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "react-scripts": "4.0.3"
+  "dependencies": {
+    "ag-grid-community": "^24.1.0",
+    "ag-grid-react": "^24.1.0",
+    "axios": "^0.21.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "4.0.3",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
